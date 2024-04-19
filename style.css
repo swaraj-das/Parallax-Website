@@ -1,0 +1,136 @@
+html,body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.sec-1{
+    background-image: url(images/image1.png);
+    min-height: 100%;
+}
+
+.sec-2{
+    background-image: url(images/image2.png);
+    min-height: 70%;
+}
+
+.sec-3{
+    background-image: url(images/image3.png);
+    min-height: 70%;
+}
+
+.sec-1, .sec-2, .sec-3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.text1{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.textBg{
+    color: white;
+    background-color: #313534;
+    padding: 20px;
+}
+
+.sec-mid-light{
+    padding: 40px 80px;
+    text-align: center;
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.sec-mid-light h2{
+    text-transform: uppercase;
+}
+
+.sec-mid-dark h2{
+    text-transform: uppercase;
+}
+
+#msg{
+    text-align: justify;
+}
+
+.sec-mid-dark{
+    padding: 40px 80px;
+    text-align: center;
+    background-color: #313534;
+    color: #f4f4f4;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure the navbar stays on top of other content */
+    background-color: rgba(197, 197, 197, 0.7);
+    padding: 15px 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-bg{
+    max-width: 100%;
+}
+
+.navbar ul {
+    list-style-type: none; /* Remove bullet points */
+}
+
+.navbar ul li {
+    display: inline-block; /* Display the list items horizontally */
+    margin-right: 60px; /* Add spacing between list items */
+}
+
+.navbar ul li a {
+    color:rgb(13, 124, 19); /* Text color for the links */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Adjust font size as needed */
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    color: #000000;
+    transition: ease-in-out 0.4s;
+}
+
+.navbar .butn {
+    background-color: rgb(13, 124, 19); /* Button background color */
+    color: #ffffff; /* Button text color */
+    border: black 1.5px solid; /* Remove button border */
+    padding: 10px 14px; /* Adjust padding as needed */
+    border-radius: 30px;
+    height: 50px;
+    font-size: 18px; /* Adjust font size as needed */
+    font-weight: bold;
+    cursor: pointer; /* Add pointer cursor on hover */
+    text-align: center;
+    margin-top: 5px;
+    margin-right: 80px;
+}
+
+.navbar .butn:hover{
+    background-color: #c7c7c7;
+    color:rgb(13, 124, 19);
+    transition: ease-in 0.3s;
+    transition: ease-out 0.3s;
+}
