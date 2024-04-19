@@ -10,17 +10,17 @@ html,body{
 }
 
 .sec-1{
-    background-image: url(images/image1.png);
+    background-image: url(image1.png);
     min-height: 100%;
 }
 
 .sec-2{
-    background-image: url(images/image2.png);
+    background-image: url(image2.png);
     min-height: 70%;
 }
 
 .sec-3{
-    background-image: url(images/image3.png);
+    background-image: url(image3.png);
     min-height: 70%;
 }
 
