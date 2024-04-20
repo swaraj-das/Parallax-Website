@@ -134,3 +134,28 @@ html,body{
     transition: ease-in 0.3s;
     transition: ease-out 0.3s;
 }
+
+
+
+
+
+
+
+
+/* For even smaller screens, like mobile phones */
+@media screen and (max-width: 48px) {
+    .navbar ul li {
+        display: block; /* Display list items vertically */
+        margin: 1px 25px; /* Add spacing between list items */
+        display: flex;
+    }
+
+    .navbar .butn {
+        margin-right: 50px;/* Add spacing for button */
+        height: 60px;
+    }
+
+    .text1 {
+        font-size: 8px; /* Further reduce font size */
+    }
+}
