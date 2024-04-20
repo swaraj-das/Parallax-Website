@@ -143,19 +143,17 @@ html,body{
 
 
 /* For even smaller screens, like mobile phones */
-@media screen and (max-width: 48px) {
+@media screen and (max-width: 480px) {
     .navbar ul li {
         display: block; /* Display list items vertically */
-        margin: 1px 25px; /* Add spacing between list items */
-        display: flex;
+        margin: 10px 0; /* Add spacing between list items */
     }
 
     .navbar .butn {
-        margin-right: 50px;/* Add spacing for button */
-        height: 60px;
+        margin: 10px 0; /* Add spacing for button */
     }
 
     .text1 {
-        font-size: 8px; /* Further reduce font size */
+        font-size: 20px; /* Further reduce font size */
     }
 }
